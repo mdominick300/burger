@@ -1,0 +1,41 @@
+<h1>Burger Madness!</h1>
+
+<h2>Burgers that are ready to eat!</h2>
+
+<ul>
+  {{#each burgers}}
+   <li>
+      <p>Burger Name: {{burger_name}}</p>
+     
+    </li>
+  {{/each}}
+</ul>
+
+<h2>Burgers already devoured!</h2>
+
+<ul>
+  {{#each burgers}}
+   <li>
+      <p>Burger Name: {{burger_name}}</p>
+     
+    </li>
+   
+  {{/each}}
+</ul>
+
+<h2>Add a Burger</h2>
+<form class="create-form">
+
+  <div class="form-group">
+    <label for="ca">Burger Name:</label>
+    <input type="text" id="ca" name="name">
+  </div>
+
+  <div class="form-group">
+    <label for="devoured">Devoured?</label><br>
+    <input type="radio" name="devoured" value="1" checked> Eaten!<br>
+    <input type="radio" name="devoured" value="0"> ReadytoEat
+  </div>
+
+  <button type="submit">Add Burger</button>
+</form>
