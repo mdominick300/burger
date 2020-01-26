@@ -1,5 +1,5 @@
 # Burger Madness
-Page will generate a password based on inputs user selects.
+App allows for the user to create Burgers that they would like to eat. The left side of the page popuates with burgers that the user creates. When they are devoured they move to right sid of the screen.
 
 # Code
 -HTML
@@ -15,20 +15,20 @@ Page will generate a password based on inputs user selects.
 -mySQL
 
 # ScreenShots
-<img src="Assets/Images/Screen Shot 2019-11-02 at 9.25.04 AM.png" width=400px>
-<img src="Assets/Images/Screen Shot 2019-11-02 at 9.26.25 AM.png" width=400px>
-<img src="Assets/Images/Screen Shot 2019-11-02 at 9.26.35 AM.png" width=400px>
+<img src="public/css/Screen Shot 2020-01-26 at 3.11.23 PM.png" width=400px>
+<img src="public/css/Screen Shot 2020-01-26 at 3.11.32 PM.png" width=400px>
+<img src="public/css/Screen Shot 2020-01-26 at 3.12.22 PM.png" width=400px>
 
 # Use
-User can select "Generate password" button to start the program.
+User moves to the box that allows input.
 <br>
-Screen prompts to select 8 to 128 characters.
+Once user puts in the burger they wish they click the button and it populates the left side of the screen.
 <br>
-Screen then prompts which characters to be included in password. These include: numbers, lower case, upper case and special characters. 
+User can click those burgers on the left side to "devour" them. They then move to the right side of the screen.  
 <br>
-Generates password and prints it on the webpage.
-<br>
-User can click clipboard button to copy the password.
+Once on the right burgers can be clicked to be deleted.
+
+
 
 
 # License
